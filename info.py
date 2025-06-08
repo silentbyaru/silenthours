@@ -99,7 +99,7 @@ GROUPS= [int(ch) for ch in (environ.get('GROUPS', '-1002015962532')).split()]
 
 # Streaming
 FILE_TO_LINK_LOG = environ.get("FILE_TO_LINK_LOG", "-1002132361598")
-FILE_TO_LINK_APPURL = environ.get("FILE_TO_LINK_APPURL", "")
+FILE_TO_LINK_APPURL = environ.get("FILE_TO_LINK_APPURL", "young-scallop-silenthours7-4aa1956b.koyeb.app/")
 
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
