@@ -4,7 +4,7 @@ then
   git clone https://github.com/silentbyaru/silenthours
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /JK-FILTER-BOT
+  git clone $UPSTREAM_REPO /silenthours
 fi
 cd /silenthours
 pip3 install -U -r requirements.txt
