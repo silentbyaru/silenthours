@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/silentbyaru/silenthours
+  git clone https://github.com/silentbyaru/silenthours/tree/TELEGRAM_FILES
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /silenthours
