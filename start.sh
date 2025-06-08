@@ -8,5 +8,5 @@ else
 fi
 cd /silenthours
 pip3 install -U -r requirements.txt
-echo "Starting JK-FILTER-BOT...."
+echo "Starting silenthours...."
 python3 bot.py
