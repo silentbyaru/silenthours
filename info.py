@@ -43,9 +43,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://silenthours2:XuFlUZcvacy9xMVe@silenthours2.g7ez7y2.mongodb.net/?retryWrites=true&w=majority&appName=silenthours2")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://silenthours1:SxoIMPG8DPwREdEC@silenthours1.jva7onz.mongodb.net/?retryWrites=true&w=majority&appName=silenthours1")
-DATABASE_NAME = environ.get('DATABASE_NAME', "silenthours1")
+SECONDDB_URI = environ.get('SECONDDB_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Yami:Yami123@cluster0.schd2ny.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'silenthourscollection')
 
 #this shortlink working
